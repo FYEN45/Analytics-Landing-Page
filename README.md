@@ -1,5 +1,5 @@
 # Analytics Landing Page
-Source : https://www.youtube.com/watch?v=ZU-drSVodBw
+Source : https://www.youtube.com/watch?v=ZU-drSVodBw.\
 Tech : React & Tailwind
 
 # Getting Started with Create React App
