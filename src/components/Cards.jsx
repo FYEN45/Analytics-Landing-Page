@@ -7,7 +7,7 @@ import Triple from '../assets/triple.png';
 const Cards = () => {
 	return (
 		<div className="w-full py-[10rem] px-4 bg-white">
-			<div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 px-4">
+			<div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
 				<div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
 					<img
 						className="w-20 mx-auto mt-[-3rem] bg-white"
@@ -21,7 +21,7 @@ const Cards = () => {
 						<p className="py-2 border-b mx-8">1 Granted User</p>
 						<p className="py-2 border-b mx-8">Send up to 2 GB</p>
 					</div>
-					<button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
+					<button className="bg-[#00df9a] lg:w-[200px] w-[180px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
 						Start Trial
 					</button>
 				</div>
@@ -39,7 +39,7 @@ const Cards = () => {
 						<p className="py-2 border-b mx-8">2 Granted User</p>
 						<p className="py-2 border-b mx-8">Send up to 3 GB</p>
 					</div>
-					<button className="bg-black w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-[#00df9a]">
+					<button className="bg-black lg:w-[200px] w-[180px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-[#00df9a]">
 						Start Trial
 					</button>
 				</div>
@@ -57,7 +57,7 @@ const Cards = () => {
 						<p className="py-2 border-b mx-8">3 Granted User</p>
 						<p className="py-2 border-b mx-8">Send up to 5 GB</p>
 					</div>
-					<button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
+					<button className="bg-[#00df9a] lg:w-[200px] w-[180px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
 						Start Trial
 					</button>
 				</div>

@@ -27,8 +27,8 @@ const Navbar = () => {
 			<div
 				className={
 					nav
-						? 'md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
-						: 'md:hidden fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+						? 'z-10 md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+						: 'z-10 md:hidden fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
 				}
 			>
 				<h1 className="text-[#00df9a] font-bold text-3xl m-4">FYEN.</h1>
